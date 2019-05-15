@@ -1,5 +1,23 @@
 # Write a speak_to_grandma method.
 
+def speak_to_grandma(chicken)
+  if (chicken != chicken.upcase ) {
+    puts "HUH?! SPEAK UP, SONNY!"
+    
+  }
+  
+else if (chicken == chicken.upcase){
+  puts "NO, NOT SINCE 1938!"
+  
+}
+
+else if (chicken == "I LOVE YOU GRANDMA"){
+  puts "HUH?! SPEAK UP, SONNY!"
+  
+}
+
+end
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
